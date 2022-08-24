@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Tool_Utilities\Tool_Utilities.cpp" />
+    <ClCompile Include="Injector\api_hook.cpp" />
+    <ClCompile Include="Injector\Injectormain.cpp" />
+    <ClCompile Include="Injector\mem.cpp" />
+    <ClCompile Include="Injector\mmap.cpp" />
+    <ClCompile Include="Injector\proc.cpp" />
+    <ClCompile Include="Injector\rand.cpp" />
+    <ClCompile Include="Injector\servcontrol.cpp" />
+    <ClCompile Include="Injector\xor.cpp" />
+    <ClCompile Include="Kdmapper\exports.cpp" />
+    <ClCompile Include="Kdmapper\intel_driver.cpp" />
+    <ClCompile Include="Kdmapper\kdmapper.cpp" />
+    <ClCompile Include="Kdmapper\portable_executable.cpp" />
+    <ClCompile Include="Kdmapper\service.cpp" />
+    <ClCompile Include="Kdmapper\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{d9cee197-056b-42cf-90d9-e2e20d8ad45d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool_Utilities\Tool_Utilities.h" />
+    <ClInclude Include="Injector\api_hook.h" />
+    <ClInclude Include="Injector\Injectormain.h" />
+    <ClInclude Include="Injector\mem.h" />
+    <ClInclude Include="Injector\mem_struct.h" />
+    <ClInclude Include="Injector\mmap.h" />
+    <ClInclude Include="Injector\proc.h" />
+    <ClInclude Include="Injector\rand.h" />
+    <ClInclude Include="Injector\seed.h" />
+    <ClInclude Include="Injector\servcontrol.h" />
+    <ClInclude Include="Injector\xor.h" />
+    <ClInclude Include="Kdmapper\buffer.h" />
+    <ClInclude Include="Kdmapper\exports.h" />
+    <ClInclude Include="Kdmapper\intel_driver.hpp" />
+    <ClInclude Include="Kdmapper\intel_driver_resource.hpp" />
+    <ClInclude Include="Kdmapper\kdmapper.hpp" />
+    <ClInclude Include="Kdmapper\nt.hpp" />
+    <ClInclude Include="Kdmapper\portable_executable.hpp" />
+    <ClInclude Include="Kdmapper\service.hpp" />
+    <ClInclude Include="Kdmapper\utils.hpp" />
+    <ClInclude Include="Kdmapper\version.h" />
+    <ClInclude Include="Extra Headers\Global_Includes.h" />
+    <ClInclude Include="Source\Injector_Main.h" />
+  </ItemGroup>
+</Project>

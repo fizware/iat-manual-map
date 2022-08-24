@@ -1,0 +1,24 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  api_hook.cpp
+  Injectormain.cpp
+  mem.cpp
+  mmap.cpp
+  proc.cpp
+  rand.cpp
+  servcontrol.cpp
+  xor.cpp
+  exports.cpp
+  intel_driver.cpp
+  kdmapper.cpp
+  portable_executable.cpp
+  service.cpp
+  utils.cpp
+  Tool_Utilities.cpp
+  Generating Code...
+exports.obj : warning LNK4006: "unsigned long target_pid" (?target_pid@@3KA) already defined in Injectormain.obj; second definition ignored
+exports.obj : warning LNK4006: "void * driver_handle" (?driver_handle@@3PEAXEA) already defined in Injectormain.obj; second definition ignored
+exports.obj : warning LNK4006: "char const * const ProcName" (?ProcName@@3PEBDEB) already defined in Injectormain.obj; second definition ignored
+exports.obj : warning LNK4006: "unsigned __int64 DLL_Length" (?DLL_Length@@3_KA) already defined in Injectormain.obj; second definition ignored
+exports.obj : warning LNK4006: "unsigned char * DLL_Array" (?DLL_Array@@3PAEA) already defined in Injectormain.obj; second definition ignored
+F:\Downloads\devware injector\devware injector\x64\Release\devwareinjector.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  example.vcxproj -> F:\Downloads\devware injector\devware injector\x64\Release\devwareinjector.exe
